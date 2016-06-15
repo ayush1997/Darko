@@ -9,11 +9,13 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: black;
+
+
 }
 
 .site-header{
@@ -22,6 +24,13 @@ body {
   /*height:100px;*/
   background-color: black;
   position: absolute;
+  /*background-image: url("https://cdn-images.xda-developers.com/direct/3/4/0/8/3/5/6/Dark.png") !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-position: 45% 0%;*/
+  opacity: 0.2;
+
 }
 .wrap{
   position: absolute;
@@ -33,7 +42,7 @@ body {
 }
 
 .site-title a{
-  color: white;
+  color: #00ab6b;
   font-size: 80px;
   font-weight: bold;
   text-decoration: none !important;
@@ -46,14 +55,33 @@ body {
 }
 .site-pages{
   position: absolute;
-
   left: 10%;
-  bottom: 30px;
+  bottom: 20px;
 
 }
 .page-head{
   display: inline-block;
-    color:white;
+
+}
+.page-head a:hover{
+  color: white;
+}
+.page-head a{
+  color: #00ab6b;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "PT Serif",Georgia,Times,serif;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-decoration: none !important;
+}
+.slash{
+  color:white;
+}
+hr{
+  color: white;
+  bottom:0;
+  position: absolute;
+  overflow-x: hidden;
 }
 .icons{
   display:inline-block;
@@ -66,9 +94,35 @@ body {
 
 
 }
+.fb{
+  color:#00ab6b;
+}
+.lin{
+  color:#00ab6b;
+}
+.git{
+  color:#00ab6b;
+}
+.twit{
+  color:#00ab6b;
+}
+
+.ico:hover .fb{
+  color: white;
+}
+.ico:hover .lin{
+  color: white;
+}
+.ico:hover .git{
+  color: white;
+}
+.ico:hover .twit{
+  color: white;
+}
+
 .ico{
-  border: 4px double #4f5b60;
-  color: #abab81;
+  border: 4px double #00ab6b;
+  color: #00ab6b;
   border-radius: 50%;
   display: inline-block;
   width: 20px;
@@ -81,8 +135,8 @@ body {
   margin: 22px 8px;
 }
 .ico:hover{
-  border: 4px solid green;
-  color: #abab81;
+  border: 4px solid white;
+  color: white;
   border-radius: 50%;
   display: inline-block;
   width: 20px;
@@ -90,20 +144,7 @@ body {
   padding: 11px;
   position: relative;
   background: transparent;
-  transition: all 0.9s ease;
+  transition: all 0.2s ease;
   text-decoration: none;
   margin: 22px 8px;
-}
-
-.fb{
-  color:white;
-}
-.lin{
-  color:white;
-}
-.git{
-  color:white;
-}
-.twit{
-  color:white;
 }

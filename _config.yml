@@ -9,8 +9,9 @@ github: "ayush1997"
 linkedin: "ayushsingh97"
 facebook: "ayush.coder"
 gmail: ""
+page_len: 2
 topic: [Home,About,DownloadTheme]
-
+page_url: [/,/about/,""]
 # Build settings
 markdown: kramdown
 permalink: pretty
