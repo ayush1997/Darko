@@ -164,12 +164,21 @@ hr{
 .home-post{
   max-width: 60%;
   /*background-color: red;*/
-  color:white;
-  margin: 20px 0 20px 0;
+  color:#bdc3c7;
+  margin: 100px 0 100px 0;
   left:20% !important;
   position: relative;
 }
-
+@media (max-width:600px){
+  .home-post{
+    max-width: 95%;
+    /*background-color: red;*/
+    color:#bdc3c7;
+    margin: 100px 0 100px 0;
+    left:5% !important;
+    position: relative;
+  }
+}
 .home{
   height: 100%;
   width:100%;
@@ -214,11 +223,19 @@ display: block;
 
 
 .home-post-head{
-  margin-left: 30px;
+  margin-left: 20px;
   color:#00ab6b;
   font-size: 30px;
 
 }
 .home-post-content{
-  
+  margin-left: 20px;
+  color:white;
+  font-size: 15px;
+}
+
+.hr-post{
+  position: relative;
+  bottom: -25px;
+  left:3%;
 }
