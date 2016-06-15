@@ -9,8 +9,11 @@ layout: default
     <li>
       <div class="home-post">
         <div class="post-img">
-          <div class="post-date"><span >{{ post.date }}</span></div>
-          <div class="post-author"><span >{{ }}</span></div>
+          <div class="info">
+          <div class="post-author"><span >{{post.author }}</span></div>
+          <div class="post-date"><span >{{ post.date | date: "%b %-d, %Y" }}</span></div>
+          <div class="post-time"><span >{{post.time }}</span></div>
+        </div>
         </div>
 
 

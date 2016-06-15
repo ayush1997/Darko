@@ -188,18 +188,28 @@ hr{
   /*background-size: 100vh 100vw;*/
   z-index: 100;
   overflow: hidden;
-
+display: block;
 }
 .post-date{
   left:100px;
   position: absolute;
   z-index: 20;
-  display: inline-block;
+  top:20px;
 }
 
 .post-author{
-  top:20px;
+
   left:100px;
   position: absolute;
   z-index: 20;
+}
+.post-time{
+  left:100px;
+  position: absolute;
+  z-index: 20;
+  top:40px;
+}
+
+.info{
+  top:10px;
 }
