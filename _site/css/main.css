@@ -50,3 +50,56 @@ body {
   bottom: 40px;
   color:white;
 }
+
+.icons{
+  display:inline-block;
+  float: left;
+  /*width:100%;*/
+  margin:0;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+
+}
+.ico{
+  border: 4px double #4f5b60;
+  color: #abab81;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 11px;
+  position: relative;
+  background: transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  margin: 22px 8px;
+}
+.ico:hover{
+  border: 4px solid green;
+  color: #abab81;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 11px;
+  position: relative;
+  background: transparent;
+  transition: all 0.9s ease;
+  text-decoration: none;
+  margin: 22px 8px;
+}
+
+.fb{
+  color:white;
+}
+.lin{
+  color:white;
+}
+.git{
+  color:white;
+}
+.twit{
+  color:white;
+}
