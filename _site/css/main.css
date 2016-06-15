@@ -20,7 +20,7 @@ body {
 
 .site-header{
   width:100%;
-  min-height: 260px;
+  min-height: 30%;
   /*height:100px;*/
   background-color: black;
   position: absolute;
@@ -158,26 +158,39 @@ hr{
   position: absolute;
   align-items: center;
 }
-.wrap-post{
 
-}
 .home-post{
   max-width: 60%;
   /*background-color: red;*/
   color:#bdc3c7;
-  margin: 100px 0 100px 0;
+  margin: 30px 0 150px 0;
   left:20% !important;
+  position: relative;
+}
+
+.home-head{
+  font-size: 40px;
+  color:white;
+  margin-left:20%;
+  margin-top: 30px;
   position: relative;
 }
 @media (max-width:600px){
   .home-post{
     max-width: 95%;
-    /*background-color: red;*/
     color:#bdc3c7;
-    margin: 100px 0 100px 0;
+    margin: 30px 0 100px 0;
     left:5% !important;
     position: relative;
   }
+  .home-head{
+    font-size: 30px;
+    color:white;
+    margin-left:0%;
+    margin-top: 30px;
+    position: relative;
+  }
+
 }
 .home{
   height: 100%;
