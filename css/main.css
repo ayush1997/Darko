@@ -162,11 +162,11 @@ hr{
 
 }
 .home-post{
-  max-width: 50%;
+  max-width: 60%;
   /*background-color: red;*/
   color:white;
   margin: 20px 0 20px 0;
-  left:25% !important;
+  left:20% !important;
   position: relative;
 }
 
@@ -202,6 +202,7 @@ display: block;
   left:100px;
   position: absolute;
   z-index: 20;
+  color:#00ab6b;
 }
 .post-time{
   left:100px;
@@ -210,6 +211,14 @@ display: block;
   top:40px;
 }
 
-.info{
-  top:10px;
+
+
+.home-post-head{
+  margin-left: 30px;
+  color:#00ab6b;
+  font-size: 30px;
+
+}
+.home-post-content{
+  
 }
