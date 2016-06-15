@@ -9,7 +9,7 @@ github: "ayush1997"
 linkedin: "ayushsingh97"
 facebook: "ayush.coder"
 gmail: ""
-
+topic: [Home,About,DownloadTheme]
 
 # Build settings
 markdown: kramdown

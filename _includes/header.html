@@ -10,8 +10,11 @@
     </div>
 
   </div>
-  <div class="site-topic">
-    <p>Home | About | Download Theme</p>
+  <div class="site-pages">
+    {% for topic in site.topic %}
+    <div class="page-head"><p>{{topic}}</p></div>
+      {% endfor%}
+    <!-- <p>Home | About | Download Theme</p> -->
   </div>
 
   <div class="icons">
