@@ -18,7 +18,7 @@ body {
 
 .site-header{
   width:100%;
-  min-height: 300px;
+  min-height: 260px;
   /*height:100px;*/
   background-color: black;
   position: absolute;
@@ -27,7 +27,7 @@ body {
   position: absolute;
   left:10%;
   min-width: 100px;
-  background-color: red;
+  /*background-color: red;*/
 
 
 }
@@ -43,4 +43,10 @@ body {
   max-width: 500px;
   color:white;
   word-wrap: break-word;
+}
+.site-topic{
+  position: absolute;
+  left: 10%;
+  bottom: 40px;
+  color:white;
 }
