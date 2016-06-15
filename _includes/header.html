@@ -15,10 +15,18 @@
   </div>
 
   <div class="icons">
-    <div class="ico"><a href="https://www.facebook.com/ayush.coder"><i class="fa fa-facebook fa-1x fb"></i></a></div>
-    <div class="ico"><a href="https://www.facebook.com/ayush.coder"><i class="fa fa-linkedin fa-1x lin"></i></a></div>
-    <div class="ico"><a href="https://www.facebook.com/ayush.coder"><i class="fa fa-github fa-1x git"></i></a></div>
-    <div class="ico"><a href="https://www.facebook.com/ayush.coder"><i class="fa fa-twitter fa-1x twit"></i></a></div>
+    {% if site.facebook %}
+    <div class="ico"><a href="https://facebook.com/{{site.facebook}}"><i class="fa fa-facebook fa-1x fb"></i></a></div>
+    {% endif %}
+    {% if site.linkedin %}
+    <div class="ico"><a href="https://www.linkedin.com/in/{{site.linkedin}}"><i class="fa fa-linkedin fa-1x lin"></i></a></div>
+    {% endif %}
+    {% if site.github %}
+    <div class="ico"><a href="https://github.com/{{site.github}}"><i class="fa fa-github fa-1x git"></i></a></div>
+    {% endif %}
+    {% if site.twitter %}
+    <div class="ico"><a href="https://twitter.com/{{site.twitter}}"><i class="fa fa-twitter fa-1x twit"></i></a></div>
+    {% endif %}
 
   </div>
 

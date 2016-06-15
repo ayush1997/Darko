@@ -4,11 +4,11 @@ email: y
 description: "A minimlistic Dark themed jekyll theme"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter: jekyllrb
-github:  jekyll
-linkedin:
-facebook:
-gmail:
+twitter: "ayush0016"
+github: "ayush1997"
+linkedin: "ayushsingh97"
+facebook: "ayush.coder"
+gmail: ""
 
 
 # Build settings
