@@ -148,3 +148,29 @@ hr{
   text-decoration: none;
   margin: 22px 8px;
 }
+
+
+.page-content{
+
+  width:100%;
+  min-height:70%;
+  top:30%;
+  position: absolute;
+  align-items: center;
+}
+.wrap-post{
+
+}
+.home-post{
+  max-width: 50%;
+  background-color: red;
+  color:white;
+  margin: 20px 0 20px 0;
+  left:25% !important;
+  position: relative;
+}
+
+.home{
+  height: 100%;
+  width:100%;
+}
