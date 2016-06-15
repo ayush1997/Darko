@@ -163,7 +163,7 @@ hr{
 }
 .home-post{
   max-width: 50%;
-  background-color: red;
+  /*background-color: red;*/
   color:white;
   margin: 20px 0 20px 0;
   left:25% !important;
@@ -173,4 +173,33 @@ hr{
 .home{
   height: 100%;
   width:100%;
+}
+
+.post-img{
+
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: url("http://www.userx.co.za/assets/images/journal/jekyll-logo-820x418.png") !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /*background-size: 80px 60px;*/
+  /*background-size: cover;*/
+  /*background-size: 100vh 100vw;*/
+  z-index: 100;
+  overflow: hidden;
+
+}
+.post-date{
+  left:100px;
+  position: absolute;
+  z-index: 20;
+  display: inline-block;
+}
+
+.post-author{
+  top:20px;
+  left:100px;
+  position: absolute;
+  z-index: 20;
 }
