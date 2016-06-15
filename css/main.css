@@ -26,12 +26,18 @@ body {
 .wrap{
   position: absolute;
   left:20%;
-  background-color: red;
+  /*background-color: red;*/
 
 
 }
 
-.site-title{
+.site-title a{
   color: white;
-  font-size: 80px;
+  font-size: 100px;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+.site-description{
+  max-width:
+  color:white;
 }
