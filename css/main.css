@@ -30,14 +30,6 @@ body {
   opacity: 0.2;
 
 }
-.wrap{
-  position: absolute;
-  left:10%;
-  min-width: 100px;
-  /*background-color: red;*/
-
-
-}
 
 .site-title a{
   color: #00ab6b;
@@ -51,16 +43,11 @@ body {
   color:white;
   word-wrap: break-word;
 }
-.site-pages{
-  position: absolute;
-  left: 10%;
-  bottom: 20px;
-
-}
 .page-head{
   display: inline-block;
 
 }
+
 .page-head a:hover{
   color: white;
 }
@@ -81,17 +68,91 @@ hr{
   position: absolute;
   overflow-x: hidden;
 }
-.icons{
-  display:inline-block;
-  float: left;
-  /*width:100%;*/
-  margin:0;
-  position: absolute;
-  top:0px;
-  right: 0px;
+
+@media (min-width:600px){
+
+  .site-pages{
+    position: absolute;
+    left: 10%;
+    bottom: 20px;
+
+  }
+
+  .wrap{
+    position: absolute;
+    left:10%;
+    min-width: 100px;
+    /*background-color: red;*/
+  }
+
+  .icons{
+    display:inline-block;
+    float: left;
+    /*width:100%;*/
+    margin:0;
+    position: absolute;
+    top:0px;
+    right: 0px;
+
+
+  }
+}
+/* header mobile */
+
+@media (max-width:600px){
+  .wrap{
+    /*position: absolute;*/
+    min-width: 100px;
+    display: block;
+  }
+  .site-title a{
+    font-size: 50px;
+  }
+  .site-pages{
+    /*position: absolute;*/
+    display: block;
+
+  }
+  .icons{
+    /*position: absolute;*/
+    display: block;
+
+  }
+
+  .ico{
+    border: 4px double #00ab6b;
+    color: #00ab6b;
+    border-radius: 50%;
+    display: inline-block;
+    width: 10px !important;
+    height: 10px !important;
+    padding: 11px;
+    position: relative;
+    background: transparent;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    margin: 1px 5px !important;
+  }
+  .ico:hover{
+    border: 4px solid white;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 10px !important;
+    height: 10px !important;
+    padding: 11px;
+    position: relative;
+    background: transparent;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    margin: 1px 5px !important;
+  }
 
 
 }
+
+
+
 .fb{
   color:#00ab6b;
 }
@@ -214,7 +275,7 @@ hr{
   /*background-size: 100vh 100vw;*/
   z-index: 100;
   overflow: hidden;
-display: block;
+  display: block;
 }
 .post-date{
   left:80px;
