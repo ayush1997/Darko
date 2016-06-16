@@ -9,7 +9,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif !important;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -60,7 +60,7 @@ body {
   text-decoration: none !important;
 }
 .slash{
-  color:white;
+  color:#00ab6b;
 }
 hr{
   color: white;
@@ -72,12 +72,16 @@ hr{
 @media (min-width:600px){
 
   .site-pages{
-    position: absolute;
-    left: 10%;
+    /*position: absolute;*/
+    margin-left: 20%;
     bottom: 20px;
-
+    margin-top: 20px;
+    margin-bottom:50px;
   }
-
+  .page-head a{
+    font-size: 25px;
+    color:white;
+  }
   .wrap{
     position: absolute;
     left:10%;
@@ -111,7 +115,14 @@ hr{
   .site-pages{
     /*position: absolute;*/
     display: block;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 0px;
 
+  }
+  .page-head a{
+    font-size: 20px;
+    color:white;
   }
   .icons{
     /*position: absolute;*/
@@ -223,7 +234,7 @@ hr{
   max-width: 60%;
   /*background-color: red;*/
   color:#bdc3c7;
-  margin: 30px 0 150px 0;
+  margin: 0px 0 110px 0;
   left:20% !important;
   position: relative;
 }
