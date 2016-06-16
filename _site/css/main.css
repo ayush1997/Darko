@@ -13,14 +13,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: black;
+  background-color: #191919;
 }
 
 .site-header{
   width:100%;
   min-height: 30%;
   /*height:100px;*/
-  background-color: black;
+  background-color: #191919;
   position: absolute;
   /*background-image: url("https://cdn-images.xda-developers.com/direct/3/4/0/8/3/5/6/Dark.png") !important;
   background-attachment: fixed;
@@ -280,7 +280,19 @@ display: block;
 }
 .post-content{
   color: white;
-  font-size: 20px;
+  font-size:1.4rem;
   font-family: "Source Sans Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.6;
 }
+@media (max-width:600px){
+  .post{
+    max-width: 100%;
+    margin:0 !important;
+    padding:0 !important;
+    font-family: "Source Sans Pro";
+    font-size: 21.6px;
+  }
+
+}
+
+.post-content{}

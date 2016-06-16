@@ -5,8 +5,8 @@
     <description>A minimlistic Dark themed jekyll theme</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Jun 2016 12:19:37 +0530</pubDate>
-    <lastBuildDate>Thu, 16 Jun 2016 12:19:37 +0530</lastBuildDate>
+    <pubDate>Thu, 16 Jun 2016 16:08:21 +0530</pubDate>
+    <lastBuildDate>Thu, 16 Jun 2016 16:08:21 +0530</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -180,7 +180,7 @@ term/definition pair to spread things out more.)&lt;/p&gt;
 
 &lt;p&gt;and images can be specified like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x250&quot; alt=&quot;example image&quot; title=&quot;An exemplary image&quot; /&gt;&lt;/p&gt;
+&lt;!-- ![example image](http://placehold.it/800x250 &quot;An exemplary image&quot;) --&gt;
 
 &lt;p&gt;And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
