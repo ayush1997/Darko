@@ -14,8 +14,6 @@ body {
   line-height: 1.5;
   font-weight: 300;
   background-color: black;
-
-
 }
 
 .site-header{
@@ -157,6 +155,7 @@ hr{
   top:30%;
   position: absolute;
   align-items: center;
+  background-color: black;
 }
 
 .home-post{
@@ -197,14 +196,19 @@ hr{
   width:100%;
 }
 
+.circle-photo{
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+}
 .post-img{
 
-  height: 80px;
+  /*height: 80px;
   width: 80px;
   border-radius: 50%;
   background: url("http://www.userx.co.za/assets/images/journal/jekyll-logo-820x418.png") !important;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   /*background-size: 80px 60px;*/
   /*background-size: cover;*/
   /*background-size: 100vh 100vw;*/
@@ -213,7 +217,7 @@ hr{
 display: block;
 }
 .post-date{
-  left:100px;
+  left:80px;
   position: absolute;
   z-index: 20;
   top:20px;
@@ -221,28 +225,31 @@ display: block;
 
 .post-author{
 
-  left:100px;
+  left:80px;
   position: absolute;
   z-index: 20;
   color:#00ab6b;
+  top:0px;
 }
 .post-time{
-  left:100px;
+  left:80px;
   position: absolute;
   z-index: 20;
   top:40px;
 }
 
 
-
+.post-link{
+  text-decoration: none !important;
+}
 .home-post-head{
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   color:#00ab6b;
   font-size: 30px;
 
 }
 .home-post-content{
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   color:white;
   font-size: 15px;
 }
@@ -250,5 +257,30 @@ display: block;
 .hr-post{
   position: relative;
   bottom: -25px;
-  left:3%;
+  /*left:3%;*/
+}
+
+.post{
+  max-width: 60%;
+  margin-left: 20%;
+  font-family: "Source Sans Pro";
+  font-size: 21.6px;
+}
+
+.post-header{
+  margin-top:40px !important;
+  margin-bottom: 40px;
+  color:white;
+  font-family: "Source Sans Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 23px;
+}
+.meta-post{
+  font-size: 15px;
+  color:#00ab6b;
+}
+.post-content{
+  color: white;
+  font-size: 20px;
+  font-family: "Source Sans Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
 }

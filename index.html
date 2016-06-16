@@ -8,13 +8,15 @@ layout: default
     {% for post in site.posts %}
     <li>
       <div class="home-post">
-        <div class="post-img">
+
+
+          <img src="{{post.image}}" class="circle-photo">
           <div class="post-author"><span >{{post.author }}</span></div>
           <div class="post-date"><span >{{ post.date | date: "%b %-d, %Y" }}</span></div>
-          <div class="post-time"><span >{{post.time }}</span></div>
+          <!-- <div class="post-time"><span >{{post.time }}</span></div> -->
 
-        </div>
-        <p class="home-post-head">{{post.title}}</p>
+
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><p class="home-post-head">{{post.title}}</p></a>
         <p class="home-post-content">{{post.small-description}}</p>
         <hr align="center" width="30%" class="hr-post">
       </div>
