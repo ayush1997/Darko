@@ -5,8 +5,8 @@
     <description>A minimlistic Dark themed jekyll theme</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Jun 2016 00:42:40 +0530</pubDate>
-    <lastBuildDate>Fri, 17 Jun 2016 00:42:40 +0530</lastBuildDate>
+    <pubDate>Fri, 17 Jun 2016 01:08:20 +0530</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2016 01:08:20 +0530</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -51,20 +51,20 @@ An h2 header
   &lt;li&gt;third item&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here’s a code sample:&lt;/p&gt;
+&lt;!-- Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here&#39;s a code sample:
 
-&lt;pre&gt;&lt;code&gt;# Let me re-iterate ...
-for i in 1 .. 10 { do-something(i) }
-&lt;/code&gt;&lt;/pre&gt;
+    # Let me re-iterate ...
+    for i in 1 .. 10 { do-something(i) } --&gt;
 
 &lt;p&gt;As you probably guessed, indented 4 spaces. By the way, instead of
 indenting the block, you can use delimited blocks, if you like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;define foobar() {
+&lt;!-- ~~~
+define foobar() {
     print &quot;Welcome to flavor country!&quot;;
 }
-&lt;/code&gt;&lt;/pre&gt;
+~~~ --&gt;
 
 &lt;p&gt;(which makes copying &amp;amp; pasting easier). You can optionally mark the
 delimited block for Pandoc to syntax highlight it:&lt;/p&gt;
@@ -99,18 +99,17 @@ delimited block for Pandoc to syntax highlight it:&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Dump everything in the pot and follow
-this algorithm:&lt;/p&gt;
+this algorithm:
+&amp;lt;!– 
+    find wooden spoon
+    uncover pot
+    stir
+    cover pot
+    balance wooden spoon precariously on pot handle
+    wait 10 minutes
+    goto first step (or shut off burner when done)&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt;find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;Do not bump wooden spoon or it will fall.&lt;/p&gt;
+    &lt;p&gt;Do not bump wooden spoon or it will fall. –&amp;gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 

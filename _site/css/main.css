@@ -14,8 +14,13 @@ body {
   line-height: 1.5;
   font-weight: 300;
   background-color: #191919;
+  overflow-x: hidden;
+
 }
 
+ul{
+  list-style: none !important;
+}
 .site-header{
   width:100%;
   min-height: 30%;
@@ -129,6 +134,9 @@ hr{
     display: block;
 
   }
+  .post{
+
+  }
 
   .ico{
     border: 4px double #00ab6b;
@@ -165,16 +173,16 @@ hr{
 
 
 .fb{
-  color:#00ab6b;
+  color:white;
 }
 .lin{
-  color:#00ab6b;
+  color:white;
 }
 .git{
-  color:#00ab6b;
+  color:white;
 }
 .twit{
-  color:#00ab6b;
+  color:white;
 }
 
 .ico:hover .fb{
@@ -227,7 +235,7 @@ hr{
   top:30%;
   position: absolute;
   align-items: center;
-  background-color: black;
+  background-color: #262626;
 }
 
 .home-post{
@@ -362,7 +370,7 @@ hr{
     margin:0 !important;
     padding:0 !important;
     font-family: "Source Sans Pro";
-    font-size: 21.6px;
+    font-size: 19px;
   }
 
 }

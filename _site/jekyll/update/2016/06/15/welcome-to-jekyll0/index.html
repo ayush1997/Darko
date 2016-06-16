@@ -104,20 +104,20 @@ An h2 header
   <li>third item</li>
 </ol>
 
-<p>Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here’s a code sample:</p>
+<!-- Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here's a code sample:
 
-<pre><code># Let me re-iterate ...
-for i in 1 .. 10 { do-something(i) }
-</code></pre>
+    # Let me re-iterate ...
+    for i in 1 .. 10 { do-something(i) } -->
 
 <p>As you probably guessed, indented 4 spaces. By the way, instead of
 indenting the block, you can use delimited blocks, if you like:</p>
 
-<pre><code>define foobar() {
+<!-- ~~~
+define foobar() {
     print "Welcome to flavor country!";
 }
-</code></pre>
+~~~ -->
 
 <p>(which makes copying &amp; pasting easier). You can optionally mark the
 delimited block for Pandoc to syntax highlight it:</p>
@@ -152,18 +152,17 @@ delimited block for Pandoc to syntax highlight it:</p>
   </li>
   <li>
     <p>Dump everything in the pot and follow
-this algorithm:</p>
+this algorithm:
+&lt;!– 
+    find wooden spoon
+    uncover pot
+    stir
+    cover pot
+    balance wooden spoon precariously on pot handle
+    wait 10 minutes
+    goto first step (or shut off burner when done)</p>
 
-    <pre><code>find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)
-</code></pre>
-
-    <p>Do not bump wooden spoon or it will fall.</p>
+    <p>Do not bump wooden spoon or it will fall. –&gt;</p>
   </li>
 </ol>
 
