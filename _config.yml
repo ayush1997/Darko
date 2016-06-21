@@ -1,0 +1,17 @@
+# Site settings
+title: Darko
+email: y
+description: "A minimlistic Dark themed jekyll theme"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter: "ayush0016"
+github: "ayush1997"
+linkedin: "ayushsingh97"
+facebook: "ayush.coder"
+gmail: ""
+page_len: 1
+topic: [Home,About]
+page_url: [/,/about/]
+# Build settings
+markdown: kramdown
+permalink: pretty

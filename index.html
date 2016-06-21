@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="home">
+  <!-- <p class="home-head">Recent Posts</p> -->
+  <div class="site-pages">
+    {% for i in (0..site.page_len) %}
+    <div class="page-head"><a href="{{site.page_url[i]}}"><p>{{site.topic[i]}} <span class="slash">|</span></p></a></div>
+      {% endfor%}
+  </div>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li>
+      <div class="home-post">
+
+
+          <img src="{{post.image}}" class="circle-photo">
+          <div class="post-author"><span >{{post.author }}</span></div>
+          <div class="post-date"><span >{{ post.date | date: "%b %-d, %Y" }}</span></div>
+          <!-- <div class="post-time"><span >{{post.time }}</span></div> -->
+
+
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><p class="home-post-head">{{post.title}}</p></a>
+        <p class="home-post-content">{{post.small-description}}</p>
+        <hr align="center" width="30%" class="hr-post">
+      </div>
+
+    </li>
+
+    {% endfor %}
+  </ul>
+
+</div>
